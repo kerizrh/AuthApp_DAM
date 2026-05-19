@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.dam.authapp-mergeDebugResources-35:/values-small-v4/values-small-v4.xml",
+            "outputFile": "com.dam.authapp-mergeDebugResources-29:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\3c6da16fc08c5e7b7caed394bbbfefaa\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\92f26858c93c869e7c307184c793bf54\\transformed\\material-1.11.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
