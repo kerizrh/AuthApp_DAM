@@ -3,7 +3,7 @@
     <string name="app_name">Login</string>
 
     <!-- Login -->
-    <string name="login_title">Login de Usuario</string>
+    <string name="login_title">Login de usuario</string>
     <string name="hint_usuario">Nombre de Usuario</string>
     <string name="hint_password">Password</string>
     <string name="btn_ingresar">Ingresar</string>
@@ -13,7 +13,7 @@
     <string name="error_credenciales">error de usuario y clave invadidos</string>
 
     <!-- Registro -->
-    <string name="registro_title">Registro de Usuario</string>
+    <string name="registro_title">Nuevo usuario</string>
     <string name="hint_email">Email</string>
     <string name="hint_confirmar_password">Confirmar Password</string>
     <string name="btn_guardar">Guardar</string>

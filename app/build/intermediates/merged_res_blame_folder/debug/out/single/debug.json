@@ -1,66 +1,78 @@
 [
     {
-        "merged": "com.dam.authapp-merged_res-31:/layout_fragment_perfil.xml.flat",
-        "source": "com.dam.authapp-main-33:/layout/fragment_perfil.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/layout_activity_home.xml.flat",
-        "source": "com.dam.authapp-main-33:/layout/activity_home.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/layout_fragment_perfil.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/layout/fragment_perfil.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/drawable_ic_home.xml.flat",
-        "source": "com.dam.authapp-main-33:/drawable/ic_home.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/layout_activity_home.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/layout/activity_home.xml"
+    },
+    {
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/layout_fragment_inicio.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/layout/fragment_inicio.xml"
+    },
+    {
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/layout_fragment_productos.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/layout/fragment_productos.xml"
     },
     {
         "merged": "com.dam.authapp-merged_res-31:/layout_activity_main.xml.flat",
         "source": "com.dam.authapp-main-33:/layout/activity_main.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.dam.authapp-main-33:/drawable/ic_launcher_background.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/drawable_ic_profile.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/drawable/ic_profile.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.dam.authapp-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "com.dam.authapp-merged_res-31:/layout_activity_registrar.xml.flat",
         "source": "com.dam.authapp-main-33:/layout/activity_registrar.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/drawable_ic_profile.xml.flat",
-        "source": "com.dam.authapp-main-33:/drawable/ic_profile.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/menu_menu_bottom_nav.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/menu/menu_bottom_nav.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/menu_menu_main.xml.flat",
-        "source": "com.dam.authapp-main-33:/menu/menu_main.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/layout/activity_main.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.dam.authapp-main-33:/drawable/ic_launcher_foreground.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/drawable/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/menu_menu_bottom_nav.xml.flat",
-        "source": "com.dam.authapp-main-33:/menu/menu_bottom_nav.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/layout_activity_registrar.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/layout/activity_registrar.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/layout_fragment_inicio.xml.flat",
-        "source": "com.dam.authapp-main-33:/layout/fragment_inicio.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/drawable_ic_home.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/drawable/ic_home.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.dam.authapp-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
         "merged": "com.dam.authapp-merged_res-31:/drawable_bg_field_rounded.xml.flat",
         "source": "com.dam.authapp-main-33:/drawable/bg_field_rounded.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/layout_fragment_productos.xml.flat",
-        "source": "com.dam.authapp-main-33:/layout/fragment_productos.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/drawable_bg_field_rounded.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/drawable/bg_field_rounded.xml"
     },
     {
-        "merged": "com.dam.authapp-merged_res-31:/drawable_ic_products.xml.flat",
-        "source": "com.dam.authapp-main-33:/drawable/ic_products.xml"
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/drawable_ic_products.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/drawable/ic_products.xml"
+    },
+    {
+        "merged": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-merged_res-31:/menu_menu_main.xml.flat",
+        "source": "/home/manu/.gradle/daemon/8.5/com.dam.authapp-main-33:/menu/menu_main.xml"
     }
 ]

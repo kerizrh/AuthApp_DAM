@@ -26,14 +26,14 @@
     <string name="hint_email">Email</string>
     <string name="hint_password">Password</string>
     <string name="hint_usuario">Nombre de Usuario</string>
-    <string name="login_title">Login de Usuario</string>
+    <string name="login_title">Login de usuario</string>
     <string name="menu_registrar">Registrar</string>
     <string name="menu_salir">Salir</string>
     <string name="nav_inicio">Hello World</string>
     <string name="nav_perfil">Perfil</string>
     <string name="nav_productos">Productos</string>
     <string name="registro_exitoso">Registro exitoso</string>
-    <string name="registro_title">Registro de Usuario</string>
+    <string name="registro_title">Nuevo usuario</string>
     <string name="texto_inicio">Bienvenido al Inicio</string>
     <string name="texto_perfil">Perfil de Usuario</string>
     <string name="texto_productos">Catálogo de Productos</string>

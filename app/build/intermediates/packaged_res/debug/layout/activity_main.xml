@@ -47,7 +47,7 @@
                 android:textColor="#333333"
                 android:textSize="14sp"
                 android:inputType="text"
-                android:paddingStart="14dp"
+                android:paddingStart="4dp"
                 android:paddingEnd="14dp"
                 android:background="@drawable/bg_field_rounded" />
 
@@ -81,13 +81,13 @@
                 android:textColor="#333333"
                 android:textSize="14sp"
                 android:inputType="textPassword"
-                android:paddingStart="14dp"
+                android:paddingStart="4dp"
                 android:paddingEnd="14dp"
                 android:background="@drawable/bg_field_rounded" />
 
         </LinearLayout>
 
-        <!-- Fila de botones: Ingresar y Salir, centrados y lado a lado -->
+        <!-- Fila de botones: Ingresar y Salir -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
             android:gravity="center"
             android:layout_gravity="center_horizontal">
 
-            <!-- Botón Ingresar (pill shape, azul) -->
+            <!-- Botón Ingresar -->
             <Button
                 android:id="@+id/btnIngresar"
                 android:layout_width="110dp"
@@ -109,7 +109,7 @@
                 android:layout_marginEnd="16dp"
                 style="@style/Widget.MaterialComponents.Button" />
 
-            <!-- Botón Salir (pill shape, azul) -->
+            <!-- Botón Salir -->
             <Button
                 android:id="@+id/btnSalir"
                 android:layout_width="110dp"
