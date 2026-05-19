@@ -7,6 +7,6 @@
 
     <item
         android:id="@+id/action_salir"
-        android:title="@string/menu_salir"/>_
+        android:title="@string/menu_salir"/>
 
 </menu>
