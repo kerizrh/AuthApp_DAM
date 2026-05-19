@@ -11,6 +11,7 @@ color success
 color text_primary
 color text_secondary
 color white
+drawable bg_field_rounded
 drawable ic_home
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -34,10 +35,8 @@ id nav_inicio
 id nav_perfil
 id nav_productos
 id tvInicio
-id tvLoginTitle
 id tvPerfil
 id tvProductos
-id tvRegistroTitle
 layout activity_home
 layout activity_main
 layout activity_registrar

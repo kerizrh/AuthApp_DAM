@@ -4,7 +4,7 @@
             "outputFile": "com.dam.authapp-mergeDebugResources-29:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\d0e09c7d7a629bd480552d63685d3217\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/manu/.gradle/caches/transforms-3/d0e09c7d7a629bd480552d63685d3217/transformed/core-1.12.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Usuario\\.gradle\\caches\\transforms-3\\12784eaef9ba4a7d07debd1a5ca1df16\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "/home/manu/.gradle/caches/transforms-3/12784eaef9ba4a7d07debd1a5ca1df16/transformed/appcompat-1.6.1/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

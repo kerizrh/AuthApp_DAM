@@ -1,82 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!-- Root CoordinatorLayout para soportar AppBar con menú -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:padding="32dp"
-    android:background="@color/bg_light">
+    android:background="#F8F8FF">
 
-    <!-- Título Login -->
-    <TextView
-        android:id="@+id/tvLoginTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/login_title"
-        android:textSize="28sp"
-        android:textStyle="bold"
-        android:textColor="@color/primary"
-        android:layout_marginBottom="40dp" />
 
-    <!-- Etiqueta Usuario -->
-    <TextView
+    <!-- Contenido principal debajo del AppBar -->
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hint_usuario"
-        android:textSize="14sp"
-        android:textColor="@color/text_secondary"
-        android:layout_marginBottom="4dp" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingStart="40dp"
+        android:paddingEnd="32dp"
+        android:paddingTop="100dp"
+        android:background="#F8F8FF"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <!-- Campo Usuario -->
-    <EditText
-        android:id="@+id/etUsuario"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/hint_usuario"
-        android:inputType="text"
-        android:padding="12dp"
-        android:background="@android:drawable/edit_text"
-        android:layout_marginBottom="16dp" />
+        <!-- Fila Usuario: etiqueta + campo -->
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
 
-    <!-- Etiqueta Password -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/hint_password"
-        android:textSize="14sp"
-        android:textColor="@color/text_secondary"
-        android:layout_marginBottom="4dp" />
+            <!-- Etiqueta Usuario -->
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Usuario"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_marginEnd="12dp" />
 
-    <!-- Campo Password -->
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/hint_password"
-        android:inputType="textPassword"
-        android:padding="12dp"
-        android:background="@android:drawable/edit_text"
-        android:layout_marginBottom="32dp" />
+            <!-- Campo de texto Usuario -->
+            <EditText
+                android:id="@+id/etUsuario"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Ingrese su usuario"
+                android:textColorHint="#AAAAAA"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:inputType="text"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:background="@drawable/bg_field_rounded" />
 
-    <!-- Botón Ingresar -->
-    <Button
-        android:id="@+id/btnIngresar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_ingresar"
-        android:backgroundTint="@color/primary"
-        android:textColor="@color/white"
-        android:textSize="16sp"
-        android:layout_marginBottom="12dp" />
+        </LinearLayout>
 
-    <!-- Botón Salir -->
-    <Button
-        android:id="@+id/btnSalir"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_salir"
-        android:backgroundTint="@color/error"
-        android:textColor="@color/white"
-        android:textSize="16sp" />
+        <!-- Fila Password: etiqueta + campo -->
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="40dp">
 
-</LinearLayout>
+            <!-- Etiqueta Password -->
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textSize="14sp"
+                android:textColor="#555555"
+                android:layout_marginEnd="12dp" />
+
+            <!-- Campo de texto Password -->
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:hint="Ingrese su password"
+                android:textColorHint="#AAAAAA"
+                android:textColor="#333333"
+                android:textSize="14sp"
+                android:inputType="textPassword"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:background="@drawable/bg_field_rounded" />
+
+        </LinearLayout>
+
+        <!-- Fila de botones: Ingresar y Salir, centrados y lado a lado -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal">
+
+            <!-- Botón Ingresar (pill shape, azul) -->
+            <Button
+                android:id="@+id/btnIngresar"
+                android:layout_width="110dp"
+                android:layout_height="44dp"
+                android:text="Ingresar"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:backgroundTint="#2196F3"
+                android:stateListAnimator="@null"
+                android:layout_marginEnd="16dp"
+                style="@style/Widget.MaterialComponents.Button" />
+
+            <!-- Botón Salir (pill shape, azul) -->
+            <Button
+                android:id="@+id/btnSalir"
+                android:layout_width="110dp"
+                android:layout_height="44dp"
+                android:text="Salir"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:backgroundTint="#2196F3"
+                android:stateListAnimator="@null"
+                style="@style/Widget.MaterialComponents.Button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -2979,6 +2979,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_field_rounded
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3581,10 +3582,8 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvInicio
-id tvLoginTitle
 id tvPerfil
 id tvProductos
-id tvRegistroTitle
 id unchecked
 id uniform
 id unlabeled

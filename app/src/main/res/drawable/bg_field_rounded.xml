@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/bg_field_rounded.xml -->
+<!-- Fondo gris claro con esquinas redondeadas para los campos de texto,
+     igual al estilo que se ve en la imagen -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Relleno gris muy claro, casi blanco -->
+    <solid android:color="#EBEBEB" />
+
+    <!-- Esquinas redondeadas (radio moderado como en la imagen) -->
+    <corners android:radius="6dp" />
+
+    <!-- Sin borde visible -->
+    <stroke
+        android:width="0dp"
+        android:color="#EBEBEB" />
+
+</shape>
