@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AuthApp</string>
+    <string name="app_name">Login</string>
 
     <!-- Login -->
-    <string name="login_title">Login</string>
+    <string name="login_title">Login de usuario</string>
     <string name="hint_usuario">Nombre de Usuario</string>
     <string name="hint_password">Password</string>
     <string name="btn_ingresar">Ingresar</string>
@@ -13,7 +13,7 @@
     <string name="error_credenciales">error de usuario y clave invadidos</string>
 
     <!-- Registro -->
-    <string name="registro_title">Registro de Usuario</string>
+    <string name="registro_title">Nuevo usuario</string>
     <string name="hint_email">Email</string>
     <string name="hint_confirmar_password">Confirmar Password</string>
     <string name="btn_guardar">Guardar</string>
@@ -26,7 +26,7 @@
     <string name="registro_exitoso">Registro exitoso</string>
 
     <!-- Home / Fragments -->
-    <string name="nav_inicio">Inicio</string>
+    <string name="nav_inicio">Hello World</string>
     <string name="nav_productos">Productos</string>
     <string name="nav_perfil">Perfil</string>
     <string name="texto_inicio">Bienvenido al Inicio</string>
